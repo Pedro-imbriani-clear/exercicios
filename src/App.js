@@ -1,8 +1,11 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { View, Text } from 'react-native'
 
-function App() {
-    return <Text>Primeiro Componente 2</Text>
-}
+import Primeiro from './components/Primeiro'
 
-export default App
+
+export default () => (
+    <View>
+        <Primeiro />
+    </View>
+)
